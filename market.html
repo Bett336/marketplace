@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Marketplace</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Simple Marketplace</h1>
+    </header>
+
+    <!-- Navigation bar -->
+    <nav>
+      <ul>
+        <li><a href="./home.html">Home</a></li>
+        <li><a href="./market.html">Marketplace</a></li>
+        <li><a href="forms/login.html">Login</a></li>
+        <li><a href="forms/signup.html">Sign up</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main content area -->
+    <main>
+      <section id="filters">
+        <h2>Filters</h2>
+        <form>
+          <label for="category">Category:</label>
+          <select id="category">
+            <option value="all">All</option>
+            <option value="electronics">Electronics</option>
+            <option value="clothing">Clothing</option>
+            <option value="books">Books</option>
+          </select>
+
+          <label for="price">Price:</label>
+          <select id="price">
+            <option value="all">All</option>
+            <option value="under10">$10 and under</option>
+            <option value="under50">$50 and under</option>
+            <option value="over50">$50 and over</option>
+          </select>
+
+          <button type="submit">Filter</button>
+        </form>
+      </section>
+
+      <section id="products">
+        <h2>Products</h2>
+        <div class="product">
+          <img src="https://picsum.photos/300" alt="Product 1">
+          <h3>Product 1</h3>
+          <p>Description of product 1.</p>
+          <button class="btn add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://picsum.photos/300" alt="Product 2">
+          <h3>Product 2</h3>
+          <p>Description of product 2.</p>
+          <button class="btn add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://picsum.photos/300" alt="Product 3">
+          <h3>Product 3</h3>
+          <p>Description of product 3.</p>
+          <button class="btn add-to-cart">Add to Cart</button>
+        </div>
+      </section>
+
+      <section id="cart">
+        <h2>Shopping Cart</h2>
+        <ul></ul>
+        <div class="total">
+          <span>Total:</span>
+          <span class="price">$0.00</span>
+        </div>
+        <button class="btn checkout">Checkout</button>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2023 Simple Marketplace. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
