@@ -5,6 +5,6 @@ Pieceing it together was in a contest and journey to understand that AI cannot b
 To date I embrace AI, continue coding Python, and use it in client projects to otpimize, debug and advise
 
 Use this as a study template.
-It's simple and starighforward
+It's simple and straighforward
 
 HTML CSS JS
